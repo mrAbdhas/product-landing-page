@@ -48,13 +48,23 @@
     </body>
 
     <footer id="contact">
-        <form id="form">
+        <form 
+            id="form" 
+            action="https://www.freecodecamp.com/email-submit" 
+            method="post"  
+        >
             <input 
                 id="email" 
+                name="email"
                 type="email" 
                 placeholder="input your email here"
                 pattern="+@globex\.com"
                 required
+            >
+            <input
+                id="submit"
+                type="submit"
+                value="Submit"
             >
         </form>
     </footer>
